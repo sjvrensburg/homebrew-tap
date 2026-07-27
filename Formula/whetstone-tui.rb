@@ -1,25 +1,25 @@
 class WhetstoneTui < Formula
   desc "Whetstone — a friction-first Quarto markdown editor for the terminal"
   homepage "https://sjvrensburg.github.io/whetstone/"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.5/whetstone-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "98c4be7febb496db2f69b588087225b341482619d8658b55127a7f65f6827aed"
+      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.6/whetstone-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "e3be82871510e4101148f069451fac5d5f8ab7665d822f9286aa348948d508c4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.5/whetstone-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "6a5ec1c31edc08c5d9ea4bab5dc413bad805112e49c310fe2741692fbb2102cc"
+      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.6/whetstone-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "6bba062e8c11421b44d8a93ef7c872ec8ed6aa6def3330977f124bb0ced44824"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.5/whetstone-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7022c0841d152cf0e370171276b67005f9fe3911d0b6787c312897fbcae7cd30"
+      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.6/whetstone-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "96ebc23e348d6c61f9a6bc59c2ca198bd0a53ef73b3bd606ae28f7a1d006d713"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.5/whetstone-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e397473997dff07f7815815eda6f6f561676714b04b2d6b09591f792c2565f92"
+      url "https://github.com/sjvrensburg/whetstone/releases/download/v0.1.6/whetstone-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f1ac0178546787b52839d0d45852722552301376a1b29b15a6105b2b28bc8776"
     end
   end
   license "MIT"
